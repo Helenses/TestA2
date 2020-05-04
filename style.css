@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body, main, h1, h2, h3,h6, p, a, button, img {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  -moz-box-sizing: border-box; /* Для Firefox */
+  -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1440px;
+  height: 800px;
+  background: url(img/vector-header.png);
+
+}
+
+.nav {
+
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__nav {
+  color: #FFFFFF;
+  width: 133px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.nav__margin-left {
+  margin-left: 80px;
+}
+
+.nav__margin-right {
+  margin-right: 220px;
+}
+
+.header__logo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 645px;
+  top: 25px;
+}
+
+.header__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 249px;
+  margin-top: 226px;
+}
+
+.header__caption-block {
+  height: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 14px;
+}
+
+.header__name {
+  font-family: "Acme";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header__rectangle-2 {
+  width: 60px;
+  height: 5.11px;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.header__button {
+  display: flex;
+  margin-top: 30.68px;
+  height: 60px;
+  justify-content: center;
+}
+
+.header__button-book {
+  width: 200px;
+  margin-right: 40px;
+  background: #E8C300;
+  border: none;
+  border-radius: 5px;
+}
+
+.header__button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header__button-explore {
+  background: transparent;
+  width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-end;
+  margin: 100px 143px;
+  width: 1155px;
+  height: 475px;
+  background: rgba(169, 180, 75, .2);
+  /* box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px; */
+}
+
+.about__img {
+width: 475px;
+height: 475px;
+margin: 0;
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+.footer {
+display: flex;
+align-items: flex-end;
+}
+
+.div-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.footer__h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
